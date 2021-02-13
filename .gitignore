@@ -1,14 +1,23 @@
-# Generated HTML and other static files
-build/
-# Commonly ignored Node.js files
+/nbproject/
+/.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
 node_modules/
-npm-debug.log
-.npm/
-
-# OSX system files, the bane of our existence
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Netlify
-.netlify
+vendor/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.egg-info/
+.tox/
+.bundle/
+Pods/
+.gradle/
+.terraform/
+bower_components/
+.cache/
+coverage/
